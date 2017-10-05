@@ -103,7 +103,7 @@
 										</li>
 										<li>
 											<div class="p-info"><em>website</em><span>
-												<a href="https://rimon007.github.io/" target="_blank">github</a>
+												<a href="https://rimon007.github.io/" target="_blank"><i class="fa fa-link"></i></a>
 											</span></div>
 										</li>
 									</ul>
@@ -136,7 +136,7 @@
 									<div class="row">
 										<ul id="filter-list" class="clearfix">
 											<li class="filter" data-filter="all"><i class="fa fa-th"></i> All</li>
-											<li class="filter" data-filter="booking">Online Booking</li>
+											<li class="filter" data-filter="web">Web</li>
 											<li class="filter" data-filter="api">App</li>
 											<li class="filter" data-filter="eCommerce">eCommerce</li>
 										</ul>
@@ -148,6 +148,13 @@
 														<div class="overlay">
 															<div class="overlay-inner">
 																<h4>Udoy App – Personal Assistant</h4>
+																<p>
+																	<h4>
+																		<i  onclick="openInNewTab('http://v2.udoyapp.com/');" 
+																			style="border-radius: 5px; padding: 5px; background: #EEE;" 
+																			class="fa fa-link"></i>
+																	</h4>
+																</p> 
 																<!-- <p>branding, logo</p> -->
 															</div>
 														</div>
@@ -155,42 +162,80 @@
 												</a>
 											</li>
 											
-											<li class="item col-md-4 booking">
+											<li class="item col-md-4 web">
 												<a title="Errandboy - Online Booking System" href="images/projects/portfolio-2.jpg" data-lightbox-gallery="gallery1" class="nivo-lbox">
 													<div class="folio-img">
 														<img src="images/projects/portfolio-2.jpg" alt="" class="img-responsive">
 														<div class="overlay">
 															<div class="overlay-inner">
 																<h4>Errandboy - Online Booking System</h4>
-																<!-- <p>branding, logo</p> -->
+																<p>
+																	<h4>
+																		<i  onclick="openInNewTab('http://35.160.109.7:60/');" 
+																			style="border-radius: 5px; padding: 5px; background: #EEE;" 
+																			class="fa fa-link"></i>
+																	</h4>
+																</p> 
+															</div>
+														</div>
+													</div>
+												</a>
+											</li>	
+											
+											<li class="item col-md-4 web">
+												<a title="EMS - Education Management System" href="images/projects/portfolio-3-big.jpg" data-lightbox-gallery="gallery1" class="nivo-lbox">
+													<div class="folio-img">
+														<img src="images/projects/portfolio-3.jpg" alt="" class="img-responsive">
+														<div class="overlay">
+															<div class="overlay-inner">
+																<h4>EMS - Education Management System</h4>
+																<p>
+																	<h4>
+																		<i  onclick="openInNewTab('http://www.falahiafeni.edu.bd/');" 
+																			style="border-radius: 5px; padding: 5px; background: #EEE;" 
+																			class="fa fa-link"></i>
+																	</h4>
+																</p> 
 															</div>
 														</div>
 													</div>
 												</a>
 											</li>
 											
-											<li class="item col-md-4 booking">
+											<li class="item col-md-4 web">
 												<a title="Petlife - Online Booking System" href="images/projects/portfolio-6.jpg" data-lightbox-gallery="gallery1" class="nivo-lbox">
 													<div class="folio-img">
 														<img src="images/projects/portfolio-6.jpg" alt="" class="img-responsive">
 														<div class="overlay">
 															<div class="overlay-inner">
 																<h4>Petlife - Online Booking System</h4>
-																<!-- <p>branding, logo</p> -->
+																<p>
+																	<h4>
+																		<i  onclick="openInNewTab('http://webmamu.com/petlife/public/');" 
+																			style="border-radius: 5px; padding: 5px; background: #EEE;" 
+																			class="fa fa-link"></i>
+																	</h4>
+																</p> 
 															</div>
 														</div>
 													</div>
 												</a>
 											</li>
 											
-											<li class="item col-md-4 booking">
+											<li class="item col-md-4 web">
 												<a title="Petmansion - Online Booking System" href="images/projects/portfolio-7.jpg" data-lightbox-gallery="gallery1" class="nivo-lbox">
 													<div class="folio-img">
 														<img src="images/projects/portfolio-7.jpg" alt="" class="img-responsive">
 														<div class="overlay">
 															<div class="overlay-inner">
 																<h4>Petmansion - Online Booking System</h4>
-																<!-- <p>branding, logo</p> -->
+																<p>
+																	<h4>
+																		<i  onclick="openInNewTab('http://petmansion.com.sg/');" 
+																			style="border-radius: 5px; padding: 5px; background: #EEE;" 
+																			class="fa fa-link"></i>
+																	</h4>
+																</p> 
 															</div>
 														</div>
 													</div>
@@ -204,7 +249,13 @@
 														<div class="overlay">
 															<div class="overlay-inner">
 																<h4>Storee - Online eCommerce System</h4>
-																<!-- <p>branding, logo</p> -->
+																<p>
+																	<h4>
+																		<i  onclick="openInNewTab('http://webmamu.com/php/storee/public/');" 
+																			style="border-radius: 5px; padding: 5px; background: #EEE;" 
+																			class="fa fa-link"></i>
+																	</h4>
+																</p> 
 															</div>
 														</div>
 													</div>
@@ -563,6 +614,10 @@ $(function(){
         $("body").css("background","#222222"); 
     });
 });
+function openInNewTab(url) {
+  var win = window.open(url, '_blank');
+  win.focus();
+}
 </script>
 </body>
 </html>
