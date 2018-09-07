@@ -1158,10 +1158,6 @@ footer p {
 	font-size: 13px;
 }
 
-#portfolio .item {
-	width: 100%;
-}
-
 .np-main {
 	width: 100%;
 }
@@ -1224,10 +1220,6 @@ footer {
 
 .services-info ul li {
 	width: 50%;
-}
-
-#portfolio .item {
-	width: 49%;
 }
 
 }
