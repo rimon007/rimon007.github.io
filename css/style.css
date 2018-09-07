@@ -366,8 +366,6 @@ a:hover {
 	display: none;
 	opacity: 0;
 	padding: 0px 10px;
-	width: 33.3333%;
-	vertical-align: top;
 	margin-bottom: 12px;
 	color: #fff;
 	font-size: 30px;
@@ -375,7 +373,7 @@ a:hover {
 	-moz-box-sizing: border-box;
 }
 
-#portfolio .item a {
+/*#portfolio .item .box-widget {
 	display: inline-block;
 	max-width: 100%;
 	text-decoration: none;
@@ -384,7 +382,7 @@ a:hover {
 
 #portfolio .item img {
 	max-width: 100%;
-}
+}*/
 
 .folio-img {
 	position: relative;
@@ -1233,4 +1231,100 @@ footer {
 }
 
 }
+
+.box-widget {
+    border: none;
+    position: relative;
+}
+.box {
+    position: relative;
+    border-radius: 3px;
+    background: #ffffff;
+    margin-bottom: 20px;
+    width: 100%;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+}
+.widget-user .widget-user-header {
+	position: relative;
+    height: 300px;
+    border-top-right-radius: 3px;
+    border-top-left-radius: 3px;
+}
+.widget-title {
+	position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 10px 0px 10px 20px;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.bg-black {
+    background-color: #111 !important;
+}
+.widget-user .widget-user-username {
+    margin-top: 0;
+    margin-bottom: 5px;
+    font-size: 25px;
+    font-weight: 300;
+    text-shadow: 0 1px 1px rgba(0,0,0,0.2);
+    text-align: left;
+}
+.widget-user .widget-user-desc {
+    margin-top: 0;
+    text-align: left;
+}
+
+.box-footer {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border-top: 1px solid #f4f4f4;
+    background-color: #fff;
+    color: #888;
+    text-align: left;
+}
+
+.box-title {
+	margin: 10px !important;
+	color: #000;
+}
+
+.box-tools {
+	margin-left: 10px;
+}
+
+.box-body {
+	margin-left: 50px;
+	padding-bottom: 20px;
+}
+
+.box-body p {
+	color: black;
+	font-size: 1.4rem;
+	margin-bottom: 0;
+}
+
+.box-body a {
+	font-size: 1.4rem;
+	margin-bottom: 0;
+}
+
+.bg-red, .bg-yellow, .bg-aqua, .bg-blue, .bg-light-blue, .bg-green, .bg-navy, .bg-teal, .bg-olive, .bg-lime, .bg-orange, .bg-fuchsia, .bg-purple, .bg-maroon, .bg-black, .bg-red-active, .bg-yellow-active, .bg-aqua-active, .bg-blue-active, .bg-light-blue-active, .bg-green-active, .bg-navy-active, .bg-teal-active, .bg-olive-active, .bg-lime-active, .bg-orange-active, .bg-fuchsia-active, .bg-purple-active, .bg-maroon-active, .bg-black-active, .callout.callout-danger, .callout.callout-warning, .callout.callout-info, .callout.callout-success, .alert-success, .alert-danger, .alert-error, .alert-warning, .alert-info, .label-danger, .label-info, .label-warning, .label-primary, .label-success, .modal-primary .modal-body, .modal-primary .modal-header, .modal-primary .modal-footer, .modal-warning .modal-body, .modal-warning .modal-header, .modal-warning .modal-footer, .modal-info .modal-body, .modal-info .modal-header, .modal-info .modal-footer, .modal-success .modal-body, .modal-success .modal-header, .modal-success .modal-footer, .modal-danger .modal-body, .modal-danger .modal-header, .modal-danger .modal-footer {
+    color: #fff !important;
+}
+.bg-aqua {
+    background-color: #00c0ef !important;
+}
+.bg-blue {
+    background-color: #0073b7 !important;
+}
+.bg-green {
+    background-color: #00a65a !important;
+}
+.bg-red{
+    background-color: #dd4b39 !important;
+}
+
 
